@@ -20,6 +20,7 @@
     
     
     int a;
+    int b;
 }
 
 - (void)didReceiveMemoryWarning {
