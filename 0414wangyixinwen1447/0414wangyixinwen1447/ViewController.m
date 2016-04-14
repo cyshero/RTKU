@@ -20,8 +20,9 @@
     
     
     int a;
-    int c;;
+    int c;
     int b;
+    int e;
 }
 
 - (void)didReceiveMemoryWarning {
