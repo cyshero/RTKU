@@ -14,6 +14,15 @@
 		180809751CC10D58003B3806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180809741CC10D58003B3806 /* Assets.xcassets */; };
 		180809781CC10D58003B3806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180809761CC10D58003B3806 /* LaunchScreen.storyboard */; };
 		180B85021CC112B80051556C /* RTNetWorkManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B85011CC112B80051556C /* RTNetWorkManger.m */; };
+		18F3472E1CC1D6410000157A /* RTCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3472D1CC1D6410000157A /* RTCollectionViewFlowLayout.m */; };
+		18F674E21CC1D9A7002C3AE1 /* RTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F674E11CC1D9A7002C3AE1 /* RTCollectionViewCell.m */; };
+		18F674E61CC1DD6B002C3AE1 /* RTTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F674E51CC1DD6B002C3AE1 /* RTTimer.m */; };
+		18F674E91CC1E7C3002C3AE1 /* RTLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F674E81CC1E7C3002C3AE1 /* RTLoopView.m */; };
+		18F674EC1CC24A0A002C3AE1 /* RTLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F674EB1CC24A0A002C3AE1 /* RTLoopViewController.m */; };
+		18F674F01CC25897002C3AE1 /* RTNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F674EF1CC25897002C3AE1 /* RTNews.m */; };
+		18F674F31CC266EA002C3AE1 /* RTNewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F674F21CC266EA002C3AE1 /* RTNewTableViewController.m */; };
+		18F674F51CC266FD002C3AE1 /* RTNewTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F674F41CC266FD002C3AE1 /* RTNewTableViewController.storyboard */; };
+		18F674F81CC26732002C3AE1 /* RTNewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F674F71CC26732002C3AE1 /* RTNewTableViewCell.m */; };
 		B3E371016D464FCAF82F7433 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A968D5B656CD1E6D59B49F15 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +40,23 @@
 		180809791CC10D58003B3806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180B85001CC112B80051556C /* RTNetWorkManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNetWorkManger.h; sourceTree = "<group>"; };
 		180B85011CC112B80051556C /* RTNetWorkManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTNetWorkManger.m; sourceTree = "<group>"; };
+		18F3472C1CC1D6410000157A /* RTCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCollectionViewFlowLayout.h; path = ../Tool/RTCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		18F3472D1CC1D6410000157A /* RTCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTCollectionViewFlowLayout.m; path = ../Tool/RTCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		18F674E01CC1D9A7002C3AE1 /* RTCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTCollectionViewCell.h; path = ../Tool/RTCollectionViewCell.h; sourceTree = "<group>"; };
+		18F674E11CC1D9A7002C3AE1 /* RTCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTCollectionViewCell.m; path = ../Tool/RTCollectionViewCell.m; sourceTree = "<group>"; };
+		18F674E41CC1DD6B002C3AE1 /* RTTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTimer.h; sourceTree = "<group>"; };
+		18F674E51CC1DD6B002C3AE1 /* RTTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTimer.m; sourceTree = "<group>"; };
+		18F674E71CC1E7C3002C3AE1 /* RTLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLoopView.h; sourceTree = "<group>"; };
+		18F674E81CC1E7C3002C3AE1 /* RTLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLoopView.m; sourceTree = "<group>"; };
+		18F674EA1CC24A0A002C3AE1 /* RTLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLoopViewController.h; sourceTree = "<group>"; };
+		18F674EB1CC24A0A002C3AE1 /* RTLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLoopViewController.m; sourceTree = "<group>"; };
+		18F674EE1CC25897002C3AE1 /* RTNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNews.h; sourceTree = "<group>"; };
+		18F674EF1CC25897002C3AE1 /* RTNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTNews.m; sourceTree = "<group>"; };
+		18F674F11CC266EA002C3AE1 /* RTNewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNewTableViewController.h; sourceTree = "<group>"; };
+		18F674F21CC266EA002C3AE1 /* RTNewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTNewTableViewController.m; sourceTree = "<group>"; };
+		18F674F41CC266FD002C3AE1 /* RTNewTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RTNewTableViewController.storyboard; sourceTree = "<group>"; };
+		18F674F61CC26732002C3AE1 /* RTNewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNewTableViewCell.h; sourceTree = "<group>"; };
+		18F674F71CC26732002C3AE1 /* RTNewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTNewTableViewCell.m; sourceTree = "<group>"; };
 		773C1BD77EEAD440DAB46163 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A968D5B656CD1E6D59B49F15 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,6 +76,8 @@
 		1808095C1CC10D58003B3806 = {
 			isa = PBXGroup;
 			children = (
+				18F674ED1CC25765002C3AE1 /* News */,
+				18F674E31CC1DD40002C3AE1 /* LoopView */,
 				180B84FF1CC110130051556C /* Tool */,
 				180809671CC10D58003B3806 /* 0415网易新闻1951 */,
 				180809661CC10D58003B3806 /* Products */,
@@ -97,6 +125,37 @@
 				180B85011CC112B80051556C /* RTNetWorkManger.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		18F674E31CC1DD40002C3AE1 /* LoopView */ = {
+			isa = PBXGroup;
+			children = (
+				18F3472C1CC1D6410000157A /* RTCollectionViewFlowLayout.h */,
+				18F3472D1CC1D6410000157A /* RTCollectionViewFlowLayout.m */,
+				18F674E01CC1D9A7002C3AE1 /* RTCollectionViewCell.h */,
+				18F674E11CC1D9A7002C3AE1 /* RTCollectionViewCell.m */,
+				18F674E41CC1DD6B002C3AE1 /* RTTimer.h */,
+				18F674E51CC1DD6B002C3AE1 /* RTTimer.m */,
+				18F674E71CC1E7C3002C3AE1 /* RTLoopView.h */,
+				18F674E81CC1E7C3002C3AE1 /* RTLoopView.m */,
+				18F674EA1CC24A0A002C3AE1 /* RTLoopViewController.h */,
+				18F674EB1CC24A0A002C3AE1 /* RTLoopViewController.m */,
+			);
+			path = LoopView;
+			sourceTree = "<group>";
+		};
+		18F674ED1CC25765002C3AE1 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				18F674EE1CC25897002C3AE1 /* RTNews.h */,
+				18F674EF1CC25897002C3AE1 /* RTNews.m */,
+				18F674F11CC266EA002C3AE1 /* RTNewTableViewController.h */,
+				18F674F21CC266EA002C3AE1 /* RTNewTableViewController.m */,
+				18F674F41CC266FD002C3AE1 /* RTNewTableViewController.storyboard */,
+				18F674F61CC26732002C3AE1 /* RTNewTableViewCell.h */,
+				18F674F71CC26732002C3AE1 /* RTNewTableViewCell.m */,
+			);
+			path = News;
 			sourceTree = "<group>";
 		};
 		7C829FE74063699A508A54FE /* Pods */ = {
@@ -178,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				180809781CC10D58003B3806 /* LaunchScreen.storyboard in Resources */,
+				18F674F51CC266FD002C3AE1 /* RTNewTableViewController.storyboard in Resources */,
 				180809751CC10D58003B3806 /* Assets.xcassets in Resources */,
 				180809731CC10D58003B3806 /* Main.storyboard in Resources */,
 			);
@@ -238,7 +298,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F674F01CC25897002C3AE1 /* RTNews.m in Sources */,
+				18F674E61CC1DD6B002C3AE1 /* RTTimer.m in Sources */,
+				18F674F81CC26732002C3AE1 /* RTNewTableViewCell.m in Sources */,
 				180809701CC10D58003B3806 /* ViewController.m in Sources */,
+				18F674E91CC1E7C3002C3AE1 /* RTLoopView.m in Sources */,
+				18F3472E1CC1D6410000157A /* RTCollectionViewFlowLayout.m in Sources */,
+				18F674E21CC1D9A7002C3AE1 /* RTCollectionViewCell.m in Sources */,
+				18F674EC1CC24A0A002C3AE1 /* RTLoopViewController.m in Sources */,
+				18F674F31CC266EA002C3AE1 /* RTNewTableViewController.m in Sources */,
 				1808096D1CC10D58003B3806 /* AppDelegate.m in Sources */,
 				180B85021CC112B80051556C /* RTNetWorkManger.m in Sources */,
 				1808096A1CC10D58003B3806 /* main.m in Sources */,

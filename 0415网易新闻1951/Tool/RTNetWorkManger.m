@@ -10,8 +10,9 @@
 
 @implementation RTNetWorkManger
 +(instancetype)shareManger{
+    //其实主要是调用initwithbaseurl，再改变manger的接收类型
     static RTNetWorkManger* manger=nil;
-static    dispatch_once_t  once;
+   static  dispatch_once_t  once;
     dispatch_once(&once, ^{
         NSURL* url=[NSURL URLWithString:@"http://c.m.163.com/nc/ad/"];
         manger=[[self alloc]initWithBaseURL:url];

@@ -7,16 +7,25 @@
 //
 
 #import "ViewController.h"
-
+#import "RTLoopView.h"
+#import "RTNetWorkManger.h"
+#import "RTNews.h"
 @interface ViewController ()
-
+@property(nonatomic,weak)RTLoopView* loopView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+[RTNews loadNewWitnSuccessBlock:^(NSArray *array) {
+    NSLog(@"%@",array);
+} AndFailed:^(NSError *error) {
+    NSLog(@"%@",error);
+}];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
